@@ -6,6 +6,31 @@ To install templates, see instructions in the official [Obsidian Web Clipper doc
 
 You can find more templates from [Obsidian Community](https://github.com/obsidian-community/web-clipper-templates/tree/main/templates).
 
+## 預設變數
+
+主要內容變數是 `{{content}}`，其中包含文章內容、標註內容或任何選定的文字。請注意，`{{content}}` 會嘗試提取頁面的主要內容，這可能並不總是您想要的。在這種情況下，您可以使用其他[預設變數](https://help.obsidian.md/web-clipper/variables)或選擇器變數來提取您需要的內容。
+
+| Variable          | Description                               |
+| ----------------- | ----------------------------------------- |
+| {{author}}        | 頁面作者                                  |
+| {{content}}       | 文章內容、重點或選擇，採用 Markdown 格式 |
+| {{contentHtml}}   | 文章內容、重點或選擇，採用 HTML 格式     |
+| {{date}}          | 目前日期，可以使用日期過濾器進行格式化    |
+| {{description}}   | 描述或摘錄                                |
+| {{domain}}        | 領域                                      |
+| {{favicon}}       | 網站圖示網址                              |
+| {{fullHtml}}      | 整頁內容的未處理 HTML                     |
+| {{highlights}}    | 帶有文字和時間戳記的標註內容              |
+| {{image}}         | 社交分享圖片網址                          |
+| {{published}}     | 發佈日期，可以使用日期過濾器進行格式化    |
+| {{selection}}     | 以 Markdown 格式選取                      |
+| {{selectionHtml}} | HTML 格式的選取                           |
+| {{site}}          | 網站名稱或發行者                          |
+| {{title}}         | 頁面標題                                  |
+| {{time}}          | 目前日期和時間                            |
+| {{url}}           | 目前網址                                  |
+| {{words}}         | 字數統計                                  |
+
 ## Work with AI
 
 Obsidian Web Clipper 最吸引人的地方在於它的 AI 整合能力，可以讓我們在擷取網頁時，直接呼叫 AI 來協助我們處理擷取的內容。
