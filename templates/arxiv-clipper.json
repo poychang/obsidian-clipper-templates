@@ -2,9 +2,7 @@
     "schemaVersion": "0.1.0",
     "name": "arXiv",
     "behavior": "create",
-    "noteNameFormat": "{{title}}",
-    "path": "Clippings",
-    "noteContentFormat": "{{content}}",
+    "noteContentFormat": "## 摘要\n{{\"a three-bullet point summary, translated to Traditional Chinese\"}}\n\n## 原文\n{{content}}",
     "properties": [
         {
             "name": "title",
@@ -37,5 +35,7 @@
             "type": "text"
         }
     ],
-    "triggers": ["https://arxiv.org/html/"]
+    "triggers": ["https://arxiv.org/html/"],
+    "noteNameFormat": "{{title}}",
+    "path": "Clippings/arXiv/"
 }

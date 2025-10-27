@@ -2,7 +2,7 @@
     "schemaVersion": "0.1.0",
     "name": "Blog",
     "behavior": "create",
-    "noteContentFormat": "{{\"return title into Traditional Chinese\"}}\n\n## 摘要\n{{\"summary the content and return in Traditional Chinese\"}}\n\n## 原文\n\n{{content}}",
+    "noteContentFormat": "## 摘要\n{{\"a three-bullet point summary, translated to Traditional Chinese\"}}\n\n## 原文\n\n{{content}}",
     "properties": [
         {
             "name": "title",
@@ -36,11 +36,11 @@
         },
         {
             "name": "tags",
-            "value": "clippings",
+            "value": "blog",
             "type": "multitext"
         }
     ],
     "triggers": [],
     "noteNameFormat": "{{title}}",
-    "path": "Clippings"
+    "path": "Clippings/blog/"
 }
